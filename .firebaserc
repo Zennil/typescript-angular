@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "typescript-angular-1e2ca": {
+      "hosting": {
+        "typescript-angular": [
+          "typescript-angular-1e2ca"
+        ]
+      }
+    }
+  }
+}
