@@ -39,7 +39,7 @@ Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.
 
 ## Expresiones de Gratitud 🎁
 
-* **Start** al proyecto.
+* **Start** al proyecto ⭐.
 * Comenta a otros sobre este proyecto 📢.
 * Invita una cerveza 🍺 o un café ☕.
 * Da las gracias públicamente 🤓.
