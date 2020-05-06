@@ -1,30 +1,30 @@
-# Creacion de plugins para un Media Player
+# Aplicación Web para la gestión de un equipo deportivo
 
-Proyecto en el que se explora el funcionamiento del DOM, se implementan eventos a objetos y como resultado se crean plugins que dan mas funcionalidad a un reproducto de video.
+Proyecto en el que se exploran las caracteristicas del superset **TypeScrip** aplicado en el framework **Angular** y en el que como resultado se crea una aplicación web para gestionar los jugadores de un equipo de fútbol con posibilidad de *insertar*, *actualizar*, *listar* y *eliminar* registros de una base de datos creada en **Firebase**.
 
 ## Comenzando 🚀
 
-Clone o descargue este repositorio:
+### 1. Clonar o descargar este repositorio:
 
 ```
-git clone https://github.com/Zennil/media-player.git
+git clone https://github.com/Zennil/typescript-angular.git
 ```
 
-Instale las dependencias:
+### 2. Instalar las dependencias:
 
 ```
 npm install
 ```
 
-Ejecute la aplicacion:
+### 3. Ejecutar la aplicacion:
 
 ```
-npm run start
+ng serve -o
 ```
 
-### Pre-requisitos 📋
+## Pre-requisitos 📋
 
- * Node.js
+ * [Node.js](https://nodejs.org/es/) - Entorno de ejecución para JavaScript
 
 ## Construido con 🛠️
 
@@ -39,7 +39,7 @@ Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* **Start** al proyecto.
+* Comenta a otros sobre este proyecto 📢.
+* Invita una cerveza 🍺 o un café ☕.
 * Da las gracias públicamente 🤓.
-* etc.
