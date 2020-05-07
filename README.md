@@ -20,7 +20,7 @@ npm install
 También es necesario tener una key para poder ulitizar las herramientas de Firebase, para dicha clave se debera crear un archivo TypeScript con el nombre **firebase-key.ts** que contenga lo siguiente:
 
 ```
-const FIREBASE_CONFIG = {
+export const FIREBASE_CONFIG = {
     ... Your web app's Firebase configuration ...
 };
 ```

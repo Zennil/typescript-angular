@@ -1,19 +1,20 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-// Constants
-import { environment } from 'src/environments/environment';
-
-// Dependencies
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { AngularFireModule } from '@angular/fire';
-import { AngularFireDatabaseModule } from '@angular/fire/database';
-
 // Services
 import { PlayerService } from './services/player.service';
 import { TeamService } from './services/team.service';
+
+// Dependencies
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire';
+import { AppRoutingModule } from './app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+// Components
+import { AppComponent } from './app.component';
 import { TeamTableComponent } from './team-table/team-table.component';
+
+// Constants
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -21,10 +22,10 @@ import { TeamTableComponent } from './team-table/team-table.component';
     TeamTableComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
+    AngularFireDatabaseModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule
+    AppRoutingModule,
+    BrowserModule,
   ],
   providers: [
     PlayerService,
