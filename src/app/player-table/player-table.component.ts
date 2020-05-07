@@ -23,8 +23,8 @@ export class PlayerTableComponent implements OnInit {
   newPlayer() {
     this.showModal = true;
     this.selectedPlayer = null;
-    setTimeout(()=> {
-      window.location.replace('#open');
+    setTimeout(() => {
+      window.location.replace('#open-modal');
     }, 0);
   }
 }

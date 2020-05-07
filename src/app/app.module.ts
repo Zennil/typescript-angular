@@ -7,6 +7,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 // Components
@@ -30,6 +31,7 @@ import { PlayerDialogComponent } from './player-dialog/player-dialog.component';
     AngularFireModule.initializeApp(environment.firebase),
     AppRoutingModule,
     BrowserModule,
+    FormsModule
   ],
   providers: [
     PlayerService,
