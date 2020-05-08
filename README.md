@@ -1,6 +1,6 @@
 # Aplicación Web para la gestión de un equipo deportivo
 
-Proyecto en el que se exploran las caracteristicas del superset **TypeScrip** aplicado en el framework **Angular** y en el que como resultado se crea una aplicación web para gestionar los jugadores de un equipo de fútbol con posibilidad de *insertar*, *actualizar*, *listar* y *eliminar* registros de una base de datos creada en **Firebase**.
+Proyecto en el que se exploran las caracteristicas del superset **TypeScript** aplicado en el framework **Angular** y en el que como resultado se crea una aplicación web para gestionar los jugadores de un equipo de fútbol con posibilidad de *insertar*, *actualizar*, *listar* y *eliminar* registros de una base de datos creada en **Firebase**.
 
 ## Comenzando 🚀
 
