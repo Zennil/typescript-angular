@@ -1,7 +1,7 @@
 <div id="open-modal" class="modal-window">
     <div>
-        <a href="#" title="Close" class="modal-close" (click)="onClose()">Close</a>
-        <h1>New Player Form</h1>
+        <a href="#" title="Close" class="modal-close">Close</a>
+        <h1>{{player ? 'Edit Player Form': 'New Player Form'}}</h1>
         <div>
             <form #playerForm="ngForm" novalidate (ngSubmit)="onSubmit(playerForm)">
                 <div class="form-group">
@@ -42,8 +42,8 @@
 
                 <div class="form-group">
                     <label for="leftFooted">Left Footed</label>
-                    <input type="checkbox" class="form-control checkbox" name="leftFooted" [ngModel]="player?.leftFooted" ngModel
-                        required>
+                    <input type="checkbox" class="form-control checkbox" name="leftFooted"
+                        [ngModel]="player?.leftFooted" ngModel />
                 </div>
 
                 <div class="submit-container">
