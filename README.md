@@ -16,7 +16,7 @@ git clone https://github.com/Zennil/typescript-angular.git
 npm install
 ```
 
-### 4. Crear archivo con key de Firebase
+### 3. Crear archivo con key de Firebase
 También es necesario tener una key para poder ulitizar las herramientas de Firebase, para dicha clave se debera crear un archivo TypeScript con el nombre **firebase-key.ts** que contenga lo siguiente:
 
 ```
@@ -25,7 +25,7 @@ export const FIREBASE_CONFIG = {
 };
 ```
 
-### 3. Ejecutar la aplicacion:
+### 4. Ejecutar la aplicacion:
 
 ```
 ng serve -o
